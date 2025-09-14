@@ -14,3 +14,8 @@ param(
   [string]$Path = (Join-Path -Path ([Environment]::GetFolderPath('MyDocuments')) -ChildPath 'Skill Sprints')
 )
 ```
+
+- [x] Turn on GitHub Pages
+- [ ] Outline my portfolio
+- [ ] Introduce myself to the world
+- [ ] Other stuff...
