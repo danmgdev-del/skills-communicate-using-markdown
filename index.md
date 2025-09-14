@@ -8,3 +8,9 @@
 I've added six headers to this file to explore the various formatting associated with the 6 levels of markdown headers.
 
 ![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+
+``` powershell
+param(
+  [string]$Path = (Join-Path -Path ([Environment]::GetFolderPath('MyDocuments')) -ChildPath 'Skill Sprints')
+)
+```
